@@ -30,8 +30,13 @@ to microservices. At any project stage and business size, it can:
 
 ## 0.1.Version Number
 
-From `x01.x.x`, Wings version is a standard [3-segment](https://semver.org),
-Combined with the dev version (`m.n.p-SNAPSHOT`) based on SpringBoot (`M.N.P`).
+From `x01.x.x`, Wings version is a standard [3-segment](https://semver.org), and
+
+* major - mainly binary compatibility, including its major dep
+* minor - mainly structural or framework-level addition
+* patch - function enhancement, option and config addition
+
+Version number is the wings dev version (`m.n.p-SNAPSHOT`) with SpringBoot (`M.N.P`).
 
 `V` = `M*100+m`.`N*100+n`.`P*100+p`-`SNAPSHOT`
 
